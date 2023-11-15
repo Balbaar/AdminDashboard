@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "retrokuriosa": {
+      "hosting": {
+        "AdminDashboard": [
+          "retrokuriosa"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "retrokuriosa"
+  }
+}

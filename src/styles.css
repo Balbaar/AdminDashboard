@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kadwa;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+:root {
+    --section-margin: 200px;
+    --section-width: 90vw;
+
+    --blue: #6289B8;
+    --blue2: #B2D0F3;
+
+    --red: #884949;
+}
+
+header, main {
+    background-color: black;
+}
+
+header ul {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+header ul li {
+    font-size: 32px;
+    padding: 10px;
+}
