@@ -25,6 +25,14 @@ header, main {
     background-color: black;
 }
 
+header {
+    height: 10vh;
+}
+
+main {
+    height: 90vh;
+}
+
 header ul {
     display: inline-flex;
     justify-content: space-between;
@@ -40,3 +48,4 @@ header ul li {
     font-size: 32px;
     padding: 10px;
 }
+

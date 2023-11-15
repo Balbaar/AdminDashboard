@@ -1,0 +1,77 @@
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70vw;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding-top: 100px;
+}
+
+form .text {
+    grid-column: 1/2;
+}
+
+
+form input {
+    color: black;
+    background-color: var(--blue);
+    border: none;
+    width: 30vw;
+    padding: 10px;
+    font-size: 24px;
+}
+
+form .images .image-input {
+    background-color: var(--blue);
+    border: none;
+    width: 30vw;
+    padding: 10px;
+    font-size: 24px;
+}
+
+form .category-title {
+    margin-top: 20px;
+}
+
+form .category-selector {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-column: 1/3;
+}
+
+form .category-selector .category {
+    display: flex;
+    padding: 0 10px 0 10px;
+    transition: 0.25s ease-in-out;
+}
+
+form .category-selector .category svg {
+    position: relative;
+    transform: translateY(40%);
+}
+
+form .category-selector .selected {
+    background-color: var(--blue);
+    border-radius: 30px;
+}
+
+form button {
+    width: 15vw;
+    border: none;
+    color: white;
+    background-color: var(--blue);
+    font-size: 24px;
+    border-radius: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-column: 1/3;
+    margin-top: 50px;
+}
+

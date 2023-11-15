@@ -1,5 +1,32 @@
 .container {
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding-top: 300px;
+}
+
+form input::placeholder {color: gainsboro;}
+form input {
+    color: black;
+    background-color: var(--blue);
+    border: none;
+    width: 30vw;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 30px;
+}
+
+form button {
+    width: 15vw;
+    border: none;
+    color: white;
+    background-color: var(--blue);
+    font-size: 24px;
+    border-radius: 30px;
 }
 
 
