@@ -34,7 +34,6 @@ export class AuthService {
   checkUser() {
     this.afAuth.authState.subscribe(user => {
       this.user = user
-
       console.log("User Info Fetched!")
 
       if (!this.user) {

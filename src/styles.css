@@ -21,7 +21,7 @@
     --red: #884949;
 }
 
-header, main {
+header, main, body {
     background-color: black;
 }
 

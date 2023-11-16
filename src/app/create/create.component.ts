@@ -16,9 +16,6 @@ export class CreateComponent {
 
   constructor(
     private firestore: Firestore, 
-    private auth: AngularFireAuth,
-    private router: Router,
-    private authservice: AuthService,
     private firestorage: AngularFireStorage) 
     {
       this.selectedCategory = "övrigt";
@@ -50,7 +47,6 @@ export class CreateComponent {
       if (this.selectedFiles.hasOwnProperty(key)) {
         const file = this.selectedFiles[key];
         const filePath = `/images/${file.name}`;
-        const fileRef = this.firestorage.ref(filePath);
         const task = this.firestorage.upload(filePath, file);
 
         console.log("File uploaded!");
